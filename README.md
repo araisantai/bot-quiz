@@ -1,1 +1,1 @@
-# bot-quiz
+# project-AI
