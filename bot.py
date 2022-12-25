@@ -41,7 +41,7 @@ async def on_message(message):
         try: 
             guess = await client.wait_for('message', check=check, timeout=30.0)
         except asyncio.TimeoutError:
-            return await message.channel.send('Sorry, you took too long')
+            return await message.channel.send('Sorry, you took too long time')
 
         if guess.content == answer:
             await message.channel.send('Correct!')
@@ -52,4 +52,4 @@ async def on_message(message):
         await message.channel.send('Usage: To use quiz bot \n!help : show help information \n!question: give you a question \nto answer just type the alphabet order: A')
     
     
-client.run('MTA0OTgyMjkzNjE1Mzk4OTE4MA.Gmfufs.dTvYxsiB7ZT7oQsafFlHSMMHEzZNPVlZuFpSNM')
+client.run('XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
